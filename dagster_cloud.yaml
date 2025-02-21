@@ -1,0 +1,4 @@
+locations:
+       - location_name: my_dagster_project
+         code_source:
+           package_name: "project_fully_featured"

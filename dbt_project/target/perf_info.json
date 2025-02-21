@@ -1,0 +1,61 @@
+{
+    "path_count": 128,
+    "parsed_path_count": 128,
+    "static_analysis_path_count": 3,
+    "static_analysis_parsed_path_count": 3,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.011705981800332665,
+    "load_macros_elapsed": 0.39045837381854653,
+    "parse_project_elapsed": 0.5491802028845996,
+    "patch_sources_elapsed": 0.004346966976299882,
+    "process_manifest_elapsed": 0.01271723979152739,
+    "load_all_elapsed": 1.0147523691412061,
+    "projects": [
+        {
+            "project_name": "hacker_news_dbt",
+            "elapsed": 0.5447314158082008,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.17659079609438777,
+                    "parsed_path_count": 3
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.08174424199387431,
+                    "parsed_path_count": 1
+                },
+                {
+                    "parser": "seed",
+                    "elapsed": 0.12371354596689343,
+                    "parsed_path_count": 1
+                },
+                {
+                    "parser": "test",
+                    "elapsed": 0.15955714602023363,
+                    "parsed_path_count": 2
+                }
+            ],
+            "parsed_path_count": 7
+        },
+        {
+            "project_name": "dbt_duckdb",
+            "elapsed": 0.0020742418710142374,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.0022945248056203127,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.00014567305333912373,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}
